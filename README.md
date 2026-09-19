@@ -1,7 +1,4 @@
-
-### And for each individual project
-
-For `NumberGuessingGame/README.md`, I'd keep it even shorter:
+For `NumberGuessingGame/README.md`
 
 ```markdown
 # Number Guessing Game
@@ -22,8 +19,6 @@ counts the number of attempts.
 - Counting attempts
 
 ## Project Structure
-
-```text
 NumberGuessingGame/
 ├── NumberGuessingGame.cpp
 └── README.md
