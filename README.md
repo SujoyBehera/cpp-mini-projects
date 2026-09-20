@@ -1,11 +1,8 @@
-For `NumberGuessingGame/README.md`
-
-```markdown
 # Number Guessing Game
 
 A simple C++ console game where the player tries to guess a randomly
-generated number between 1 and 100. The program gives hints and
-counts the number of attempts.
+generated number. The program gives hints when the guess is too high
+or too low and keeps track of the number of attempts.
 
 ## What I Learned
 
@@ -13,12 +10,10 @@ counts the number of attempts.
 - `rand()` and `srand()`
 - `time()`
 - `srand(time(0))`
-- `rand() % 100 + 1`
-- Loops and conditions
-- User input
+- Generating random numbers using `rand() % n + 1`
+- `switch` statements
+- `while` loops
+- `if`, `else if`, and `else` conditions
+- User input using `cin`
 - Counting attempts
-
-## Project Structure
-NumberGuessingGame/
-├── NumberGuessingGame.cpp
-└── README.md
+- Basic game logic and control flow
